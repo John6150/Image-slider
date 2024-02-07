@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    height: 100vh;
+}
+
+main {
+    width: fit-content;
+    height: 100px;
+    position: absolute;
+    left: 40%;
+    bottom: 70px;
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    outline: none;
+    border: 1px solid green;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.692);
+    backdrop-filter: blur(200px);
+    color: white;
+}
